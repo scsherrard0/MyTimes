@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  font-size: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+.logo{
+  display: inline-flex;
+  color: MediumAquamarine;
+  justify-content: flex-start;
+  padding-left: 30px;
+  align-items: center;
+}
+#mtlogo{
+  padding-left: 15px;
+}
