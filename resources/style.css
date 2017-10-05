@@ -1,17 +1,39 @@
-.header{
+header{
   display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
   font-size: 14px;
   font-family: Verdana;
   font-weight: bold;
   border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
 }
 .logo{
-  display: inline-flex;
+  display: flex;
+  flex-grow: 1;
   color: MediumAquamarine;
   justify-content: flex-start;
+  width: 100%;
   padding-left: 30px;
   align-items: center;
 }
-#mtlogo{
-  padding-left: 15px;
+.logo span{
+    padding-left: 15px;
+}
+nav{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  padding-right: 40px;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+a{
+  color: black;
 }
