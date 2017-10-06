@@ -9,6 +9,7 @@ header{
   border-bottom: 1px solid black;
   height: 80px;
   width: 100%;
+  background-color: white;
 }
 .logo{
   display: flex;
@@ -36,4 +37,30 @@ nav span{
 }
 a{
   color: black;
+}
+.content{
+  display: flex;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+.column{
+  margin-right: 32px;
+}
+div{
+  border: 1px solid black;
+}
+.column.large{
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+}
+.column.medium{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+.column.small{
+  display: flex;
+  width: 240px;
+  flex-direction: column;
 }
